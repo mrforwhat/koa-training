@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    {% include "common/meta.html" %}
+</head>
+
+<body>
+<form action="/user/regist" method="post">
+    <input name="name" type="text" placeholder="请输入用户名：Bob" />
+    <br/>
+    <input name="password" type="text" placeholder="请输入密码：123456" />
+    <br/>
+    <button>{{btnName}}</button>
+</form>
+<input type="file" id="file">
+</body>
+</html>
